@@ -3,6 +3,7 @@ from appium.webdriver.common.appiumby import AppiumBy
 from selene import browser, be
 
 
+@allure.story('Check "Brands" bar opens correct')
 def test_check_brands_bar():
     with allure.step('Verify app is launched'):
         browser.element((AppiumBy.CLASS_NAME, 'android.widget.EditText')).should(be.visible)

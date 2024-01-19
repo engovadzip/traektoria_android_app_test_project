@@ -3,6 +3,7 @@ from appium.webdriver.common.appiumby import AppiumBy
 from selene import browser, be, query
 
 
+@allure.story("Check products' search works correct")
 def test_check_products_search(search):
     with allure.step('Verify app is launched'):
         browser.element((AppiumBy.CLASS_NAME, 'android.widget.EditText')).should(be.visible)
