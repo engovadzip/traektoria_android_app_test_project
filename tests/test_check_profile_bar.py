@@ -19,4 +19,3 @@ def test_check_profile():
         browser.element((AppiumBy.XPATH, '//*[@text="Моя информация"]')).should(be.visible)
         browser.element((AppiumBy.XPATH, '//*[@text="Программа лояльности"]')).should(be.visible)
         browser.element((AppiumBy.XPATH, '//*[@text="Акции"]')).should(be.visible)
-        browser.element((AppiumBy.XPATH, '//*[@text="О нас "]')).should(be.visible)

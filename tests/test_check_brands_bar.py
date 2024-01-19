@@ -10,3 +10,4 @@ def test_check_brands_bar():
     with allure.step('Open "Brands" bar'):
         browser.element((AppiumBy.XPATH, '//*[@text="Бренды"]/..')).click()
         browser.element((AppiumBy.XPATH, '//*[@text="Топ-бренды"]')).should(be.visible)
+        browser.element((AppiumBy.XPATH, '//*[@text="Все бренды"]')).should(be.visible)
