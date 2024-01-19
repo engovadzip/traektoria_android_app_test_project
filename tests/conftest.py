@@ -9,7 +9,7 @@ import traektoria_app_tests.utils.attach
 
 
 def pytest_addoption(parser):
-    parser.addoption("--context", default="emulator", help="Choose launch: emulator or browserstack.")
+    parser.addoption("--context", default="bstack", help="Choose launch: emulator or browserstack.")
     parser.addoption("--search", default="carhartt", help="Enter search request.")
 
 
