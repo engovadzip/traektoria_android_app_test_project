@@ -16,6 +16,9 @@
     <a href="https://www.jetbrains.com/pycharm/">
         <img src="resources/pycharm-logo.svg" height="40" width="40" />
     </a>
+    <a href="https://www.android.com/">
+        <img src="resources/Android_robot.svg" height="40" width="40" />
+    </a>
     <a href="https://www.selenium.dev/documentation/webdriver/">
         <img src="resources/selenium-original.svg" height="40" width="40" />
     </a>
