@@ -82,7 +82,7 @@ Before launch, you need to install the following (installation guide links are p
 * [Allure Pytest](https://pypi.org/project/allure-pytest/).  
 
 Also, download the repository with this project on your PC/laptop:  
-* Click on "**<> Code**" on the [project page](https://github.com/engovadzip/skvot_boardshop_UI_project).  
+* Click on "**<> Code**" on the [project page](https://github.com/engovadzip/traektoria_android_app_test_project).  
 * In the opened pop-up menu click on "**Download ZIP**".  
 * Download it to preferred directory and unpack downloaded archive there.  
 
