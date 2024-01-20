@@ -52,6 +52,7 @@
     * [Local launch](#local-launch)  
         * [Preparing the environment](#preparing-the-environment)  
         * [Launch](#launch)  
+        * [Search request managing](#search-request-managing)
         * [Generating a test report](#generating-a-test-report)  
     * [Launch using Jenkins](#launch-using-jenkins)  
 * [Tests results](#tests-results)  
