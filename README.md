@@ -150,7 +150,7 @@ After the last step of tests (profile bar checking), the app will close on the v
 </p>
 
 ##### Search request managing
-Search request used in products' search test can be set in terminal. It is possible with ```--search``` parameter. By default, the search request is "carhartt". For example, if you want to search "nike" products, run the following command:  
+Search request used in products' search test can be set in terminal. It is possible with ```--search``` parameter. By default, the search request is "carhartt". For example, if you want to search "sk8mafia" products, run the following command:  
 ```
 pytest --context=emulator --search=sk8mafia
 ```
