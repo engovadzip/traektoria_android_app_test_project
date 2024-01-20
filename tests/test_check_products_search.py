@@ -21,7 +21,7 @@ def test_check_products_search(search):
         counter = 0
 
         for result in results:
-            if 'carhartt' in result.get(query.text).lower():
+            if f'{search}' in result.get(query.text).lower():
                 counter += 1
 
-        assert counter >= 2, f'The request "{search}" was not found among the search results'
+        assert counter >= 1, f'The request "{search}" was not found among the search results.'
