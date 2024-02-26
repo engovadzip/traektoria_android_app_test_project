@@ -20,7 +20,7 @@ def pytest_configure(config):
     if os.path.exists(env_file_path):
         load_dotenv(dotenv_path=env_file_path)
     else:
-        print(f"Warning: Configuration file '{env_file_path}' not found.")
+        print(f"Warning: Configuration file '{env_file_path}' is not found.")
 
 
 @pytest.fixture
