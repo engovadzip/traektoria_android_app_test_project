@@ -33,7 +33,7 @@ def android_mobile_management(context):
     from config import config
     options = config.to_driver_options(context=context)
 
-    with allure.step('setup app session'):
+    with allure.step('Setup app session'):
         browser.config.driver = webdriver.Remote(
             options.get_capability('remote_url'),
             options=options
@@ -51,7 +51,7 @@ def android_mobile_management(context):
 
     session_id = browser.driver.session_id
 
-    with allure.step('tear down app session with id' + session_id):
+    with allure.step('Tear down app session with id' + session_id):
         browser.quit()
 
     if context == 'bstack':
